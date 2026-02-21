@@ -45,9 +45,9 @@
      ═══════════════════════════════════════════════════ -->
 <div class="slides">
 
-<!-- ═══ ACT 1: THE WORLD CHANGED ═══ -->
+<!-- ═══ ACT 1: THE OLD WORLD ═══ -->
 
-<section class="full title-ambient" data-act="The World Changed" data-menu-title="Title">
+<section class="full title-ambient" data-act="The Old World" data-menu-title="Title">
   <h1 class="grad" style="font-size:4.2em">The Upended<br>Product Cycle</h1>
   <p style="color:var(--teal);margin-top:56px;font-weight:500;font-size:0.72em;letter-spacing:0.03em">Kunal Babre · Principal Product Manager</p>
   <aside class="notes">Don't open with "Today I'll talk about AI." Let this title breathe. Then move to the provocation.</aside>
@@ -59,8 +59,29 @@
   <aside class="notes">Pause. 3 seconds of silence. Let the room sit with this. Then: "Let me show you what I mean." If asked for an example: Cursor built an AI code editor by prototyping with AI itself. Vercel's Guillermo Rauch calls it "demo-driven development" — ship the demo first, then decide if it's worth building.</aside>
 </section>
 
-<section data-menu-title="Four Signals">
-  <h2>Four signals the shift is real</h2>
+<section data-menu-title="The Stakes">
+  <h2 style="text-align:center;font-size:1.8em;max-width:820px;line-height:1.2;margin:0 auto 40px">PMs who don't adapt to faster build loops will become<br><span class="coral">project managers of AI-driven systems.</span></h2>
+  <div class="g3">
+    <div class="card fragment">
+      <h3 class="coral">Why care?</h3>
+      <p>AI has reduced the cost of building to near zero. The PM who waits for the spec is already late.</p>
+    </div>
+    <div class="card fragment">
+      <h3 class="amber">What breaks?</h3>
+      <p>Discovery stays slow. Insights go stale before they ship. Teams moving in hours outlearn teams moving in weeks.</p>
+    </div>
+    <div class="card fragment">
+      <h3 class="teal">What's possible?</h3>
+      <p>PMs who build own the loop from insight to artifact. The leverage is enormous — and it compounds.</p>
+    </div>
+  </div>
+  <aside class="notes">This is the tension slide. Let it land before moving on. The audience needs to feel what's at stake — for them, not just the industry. Pause after the opening statement.</aside>
+</section>
+
+<!-- ═══ ACT 2: THE BREAK ═══ -->
+
+<section data-act="The Break" data-menu-title="Four Signals">
+  <h2>Four Signals You Can't Ignore</h2>
   <div class="g2" style="margin-top:20px">
     <div class="card fragment">
       <h3 class="teal">LinkedIn killed the APM program</h3>
@@ -87,7 +108,7 @@
 </section>
 
 <section class="full" data-menu-title="The Economics Changed">
-  <h2 style="font-size:2.2em;margin-bottom:56px">The economics <span class="teal">changed</span></h2>
+  <h2 style="font-size:2.2em;margin-bottom:56px">Building Is Now Cheaper Than <span class="teal">Deciding</span></h2>
   <div style="display:flex;gap:56px;align-items:flex-start;justify-content:center">
     <div class="fragment" style="text-align:center;min-width:190px">
       <span style="font-size:0.56em;text-transform:uppercase;letter-spacing:0.18em;color:var(--mute);font-weight:500">Spec</span>
@@ -133,12 +154,12 @@
   <aside class="notes">Don't explain the pillars yet. Just name them with color. The "five beliefs" line pulls the audience into Act 2. The beliefs will earn each pillar.</aside>
 </section>
 
-<!-- ═══ ACT 2: 5 BELIEFS UPENDED ═══ -->
+<!-- ═══ ACT 3: THE NEW REALITY ═══ -->
 
-<section class="section-open" data-act="5 Beliefs Upended" data-menu-title="Section: 5 Beliefs">
-  <div class="pill pill-a">Act 2</div>
-  <h1 style="font-size:3.4em">5 PM Beliefs<br><span class="coral">Upended</span></h1>
-  <aside class="notes">Title echoes the deck name "The Upended Product Cycle." Format inspired by Anthropic's "Beliefs for Engineers" and Every.to's "Compound Engineering" - mention only if asked about the structure.</aside>
+<section class="section-open" data-act="The New Reality" data-menu-title="Section: The New Reality">
+  <div class="pill pill-a">Act 3</div>
+  <h1 style="font-size:3.4em">The New<br><span class="teal">Reality</span></h1>
+  <aside class="notes">Title echoes the deck name "The Upended Product Cycle." Five beliefs that got upended — and what replaced them.</aside>
 </section>
 
 <section class="atm-belief" data-menu-title="Belief #1 - Research">
@@ -332,10 +353,10 @@
   <aside class="notes">Linear doesn't A/B test their way to taste. They develop intuition, document principles, let judgment lead. Ronny Kohavi's research: ⅓ positive, ⅓ flat, ⅓ negative — data is a safety net for being wrong, not a compass for being right. Saarinen: "Opinionated software is about providing a clear direction and vision, rather than deferring every choice to the user."</aside>
 </section>
 
-<!-- ═══ ACT 3: FRAMEWORK ═══ -->
+<!-- Framework (still within Act 3: The New Reality) -->
 
-<section class="section-open" data-act="Framework" data-menu-title="Section: Framework">
-  <div class="pill pill-a">Act 3</div>
+<section class="section-open" data-menu-title="Section: Framework">
+  <div class="pill pill-a">The New Reality</div>
   <h1 style="font-size:3.2em">From Beliefs<br>to <span class="teal">Framework</span></h1>
   <p style="max-width:540px;text-align:center;margin-top:20px">Now, a practical system for where to start.</p>
   <aside class="notes">Transition moment. You've made the case for change. Now give them the playbook.</aside>
@@ -355,10 +376,78 @@
   <aside class="notes">Level 2 is "Extract Taste" — write down what good looks like. The 50/50 Rule applies here: AI automates overhead, freeing time for discovery. Level 5 for GPMs, Directors, VPs.</aside>
 </section>
 
-<!-- ═══ ACT 4: CALL TO ACTION ═══ -->
+<section class="atm-framework" data-menu-title="PM Leverage Matrix">
+  <h2>The PM Leverage Matrix</h2>
+  <p style="font-size:0.82em;margin-bottom:16px">Speed without judgment is noise. Judgment without speed is bottleneck.</p>
+  <div style="display:flex;gap:20px;align-items:center;justify-content:center;margin-top:8px">
+    <div style="font-size:0.52em;color:var(--mute);writing-mode:vertical-rl;text-orientation:mixed;transform:rotate(180deg);letter-spacing:0.08em;text-align:center;height:220px;display:flex;align-items:center;flex-shrink:0">QUALITY OF JUDGMENT ↑</div>
+    <div style="flex:1;max-width:520px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;grid-template-rows:110px 110px;gap:6px">
+        <div style="background:rgba(245,158,11,0.06);border:1px solid rgba(245,158,11,0.15);border-radius:8px;padding:14px 12px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+          <p style="font-size:0.76em;font-weight:700;color:var(--amber);margin:0 0 4px">Strategic Bottleneck</p>
+          <p style="font-size:0.6em;color:var(--mute);margin:0">Great thinking,<br>slow output</p>
+        </div>
+        <div style="background:rgba(0,212,170,0.08);border:2px solid rgba(0,212,170,0.3);border-radius:8px;padding:14px 12px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;box-shadow:0 0 40px rgba(0,212,170,0.08)">
+          <p style="font-size:0.76em;font-weight:800;color:var(--teal);margin:0 0 4px">Product Builder ★</p>
+          <p style="font-size:0.6em;color:var(--sub);margin:0">High judgment +<br>hours to artifact</p>
+        </div>
+        <div style="background:rgba(255,87,87,0.04);border:1px solid rgba(255,87,87,0.12);border-radius:8px;padding:14px 12px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+          <p style="font-size:0.76em;font-weight:700;color:var(--coral);margin:0 0 4px">The Old Way</p>
+          <p style="font-size:0.6em;color:var(--mute);margin:0">Slow and<br>generic</p>
+        </div>
+        <div style="background:rgba(139,92,246,0.04);border:1px solid rgba(139,92,246,0.12);border-radius:8px;padding:14px 12px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center">
+          <p style="font-size:0.76em;font-weight:700;color:var(--purple);margin:0 0 4px">AI Busy Work</p>
+          <p style="font-size:0.6em;color:var(--mute);margin:0">Fast but<br>directionless</p>
+        </div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:0.52em;color:var(--mute);margin-top:6px;padding:0 4px">
+        <span>← Low Build Speed</span>
+        <span>High Build Speed →</span>
+      </div>
+    </div>
+  </div>
+  <p class="fragment" style="margin-top:20px;text-align:center;font-size:0.82em">The goal: <span class="teal">top-right</span>. That's where PMs create <strong>compounding leverage</strong>.</p>
+  <aside class="notes">This framework should be memorable. The dangerous quadrant is bottom-right — AI makes it easy to be fast but shallow. The differentiation is judgment + speed together. Ask the room: "Where does your team sit today?"</aside>
+</section>
 
-<section class="atm-action" data-act="Call to Action" data-menu-title="Start Where You Are">
-  <div class="pill pill-a">Act 4 · Call to Action</div>
+<!-- ═══ ACT 4: PROOF ═══ -->
+
+<section data-act="Proof" data-menu-title="Case Study: Discovery Collapsed">
+  <div class="pill pill-a">Act 4 · Proof</div>
+  <h2>Discovery Collapsed:<br><span class="teal">6 Weeks &rarr; 6 Hours</span></h2>
+  <div class="g2" style="margin-top:18px">
+    <div>
+      <div class="card" style="margin-bottom:16px">
+        <h3 class="coral">The Problem</h3>
+        <p>A team scaling from hundreds to tens of thousands of users. Support flooded. Old approach: weeks of manual triage research, user interviews, tagging sessions, stakeholder reviews.</p>
+        <p class="fn">Result: insights were stale before decisions were made.</p>
+      </div>
+      <div class="card fragment">
+        <h3 class="teal">The Build-to-Learn Move</h3>
+        <p>Prototyped auto-triage, auto-tagging (bugs vs. features), and topic clustering — in one morning with AI.</p>
+        <p class="fn">Result: real signal in hours. Now in production.</p>
+      </div>
+    </div>
+    <div class="fragment" style="display:flex;flex-direction:column;justify-content:center;gap:24px">
+      <div style="text-align:center;padding:28px 24px;background:var(--glass);border:1px solid var(--line);border-radius:var(--r)">
+        <span style="font-size:0.56em;text-transform:uppercase;letter-spacing:0.18em;color:var(--mute);font-weight:500">Research Cycle</span>
+        <div style="margin:12px 0 6px">
+          <span style="font-size:0.88em;color:var(--coral);text-decoration:line-through;text-decoration-thickness:2px;opacity:0.5">6 weeks</span>
+        </div>
+        <span style="font-size:3.2em;font-weight:800;color:var(--teal);line-height:1;text-shadow:0 0 48px rgba(0,212,170,0.2)">6 hours</span>
+      </div>
+      <div class="new fragment" style="margin:0">
+        <p style="text-align:center">The scars are real.<br>The artifact is in production.</p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Tell this story slowly. Mention the specific tools if you can show them. The audience values real scars over polished anecdotes. Key insight: you didn't set out to prototype — you set out to learn. The prototype was just the fastest path to the answer.</aside>
+</section>
+
+<!-- ═══ ACT 5: IMPLICATION ═══ -->
+
+<section class="atm-action" data-act="Implication" data-menu-title="Start Where You Are">
+  <div class="pill pill-a">Act 5 · Implication</div>
   <h2>Start Where You Are</h2>
   <div class="g3" style="margin-top:16px">
     <div class="card" style="display:flex;flex-direction:column">
@@ -400,6 +489,41 @@
   </div>
   <p class="fragment" style="max-width:540px;text-align:center;margin-top:28px;font-size:0.88em;color:var(--sub)">The question is whether you're building the judgment, the taste, and the fluency to claim it.</p>
   <aside class="notes">Deliver the Boris Cherny quote from memory, not the slide. This is the emotional peak. Pause after.</aside>
+</section>
+
+<section data-menu-title="Objections">
+  <h2>"What you're probably thinking…"</h2>
+  <div style="margin-top:20px;display:flex;flex-direction:column;gap:10px">
+    <div class="card fragment" style="display:flex;align-items:flex-start;gap:16px;padding:14px 18px">
+      <span style="color:var(--coral);font-size:1.3em;font-weight:800;line-height:1.2;flex-shrink:0;width:20px">✕</span>
+      <div>
+        <p style="color:var(--fg);font-weight:600;font-size:0.88em;margin:0 0 4px">"This only works for small teams."</p>
+        <p style="font-size:0.76em;margin:0">Shopify mandated it at scale. LinkedIn restructured around it. Size isn't the variable — <strong>permission is</strong>.</p>
+      </div>
+    </div>
+    <div class="card fragment" style="display:flex;align-items:flex-start;gap:16px;padding:14px 18px">
+      <span style="color:var(--coral);font-size:1.3em;font-weight:800;line-height:1.2;flex-shrink:0;width:20px">✕</span>
+      <div>
+        <p style="color:var(--fg);font-weight:600;font-size:0.88em;margin:0 0 4px">"AI prototypes aren't production-ready."</p>
+        <p style="font-size:0.76em;margin:0">You're not shipping the prototype. You're shipping the <strong>learning</strong>. The prototype earns the production build.</p>
+      </div>
+    </div>
+    <div class="card fragment" style="display:flex;align-items:flex-start;gap:16px;padding:14px 18px">
+      <span style="color:var(--coral);font-size:1.3em;font-weight:800;line-height:1.2;flex-shrink:0;width:20px">✕</span>
+      <div>
+        <p style="color:var(--fg);font-weight:600;font-size:0.88em;margin:0 0 4px">"We'll lose governance and quality."</p>
+        <p style="font-size:0.76em;margin:0">Governance belongs in <strong>production</strong>, not discovery. When learning is cheap, gatekeeping learning is the real risk.</p>
+      </div>
+    </div>
+    <div class="card fragment" style="display:flex;align-items:flex-start;gap:16px;padding:14px 18px">
+      <span style="color:var(--coral);font-size:1.3em;font-weight:800;line-height:1.2;flex-shrink:0;width:20px">✕</span>
+      <div>
+        <p style="color:var(--fg);font-weight:600;font-size:0.88em;margin:0 0 4px">"Our PMs don't have the skills."</p>
+        <p style="font-size:0.76em;margin:0">They have <span class="teal">taste</span>. They have <span class="purple">judgment</span>. That's the hard part. The building is learnable in days.</p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Deliver these before they're voiced. Control the room by showing you've thought through the resistance. Address these as "the objections I hear every time" to build rapport with the skeptics.</aside>
 </section>
 
 <section data-menu-title="Does / Doesn't">
@@ -444,6 +568,26 @@
   </div>
   <p style="text-align:center;margin-top:20px;font-size:0.88em"><strong>The PM leader's job: build the system where product builders thrive.</strong></p>
   <aside class="notes">For GPMs, Directors, VPs. Reframes from "individual behavior change" to "organizational capability building."</aside>
+</section>
+
+<section class="atm-action" data-menu-title="Your Mandate">
+  <h2 style="text-align:center;margin-bottom:8px">Your <span class="teal">Mandate</span></h2>
+  <p style="text-align:center;font-size:0.78em;color:var(--mute);margin-bottom:36px">Don't end with insight. End with behavior change.</p>
+  <div style="display:flex;flex-direction:column;gap:14px;max-width:640px;margin:0 auto">
+    <div class="fragment" style="display:flex;align-items:center;gap:20px;padding:18px 24px;background:rgba(0,212,170,0.06);border:2px solid rgba(0,212,170,0.2);border-radius:var(--r)">
+      <span style="color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:1.4em;font-weight:700;line-height:1;width:24px;flex-shrink:0">1</span>
+      <p style="font-size:0.92em;font-weight:600;color:var(--fg);margin:0">Start every discovery with a working prototype.</p>
+    </div>
+    <div class="fragment" style="display:flex;align-items:center;gap:20px;padding:18px 24px;background:rgba(139,92,246,0.06);border:2px solid rgba(139,92,246,0.2);border-radius:var(--r)">
+      <span style="color:var(--purple);font-family:'JetBrains Mono',monospace;font-size:1.4em;font-weight:700;line-height:1;width:24px;flex-shrink:0">2</span>
+      <p style="font-size:0.92em;font-weight:600;color:var(--fg);margin:0">Replace 50% of PRDs with interactive demos.</p>
+    </div>
+    <div class="fragment" style="display:flex;align-items:center;gap:20px;padding:18px 24px;background:rgba(245,158,11,0.06);border:2px solid rgba(245,158,11,0.2);border-radius:var(--r)">
+      <span style="color:var(--amber);font-family:'JetBrains Mono',monospace;font-size:1.4em;font-weight:700;line-height:1;width:24px;flex-shrink:0">3</span>
+      <p style="font-size:0.92em;font-weight:600;color:var(--fg);margin:0">Train PMs to ship artifacts, not documents.</p>
+    </div>
+  </div>
+  <aside class="notes">These are the three behaviors. If someone remembers nothing else, they should remember these three. Say each slowly. Let the room write them down. These are the next moves.</aside>
 </section>
 
 <section class="full title-ambient" data-menu-title="Closing">
